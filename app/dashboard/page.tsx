@@ -1,5 +1,5 @@
 import { postsData } from "@/data";
-import Post from "../components/Post";
+import Post from "../../components/Post";
 import Link from "next/link";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../api/auth/[...nextauth]/route";
